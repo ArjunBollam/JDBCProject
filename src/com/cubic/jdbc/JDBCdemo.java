@@ -12,6 +12,6 @@ public class JDBCdemo {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","Arjun1234");
 		return conn;
-		//Commented by Me
+		//Commented by bibek
 	}
 }
